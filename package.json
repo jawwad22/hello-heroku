@@ -4,9 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "M.Jawwad",
+  "license": "ISC",
+  "engines": {
+    "node": "10.15.0"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
